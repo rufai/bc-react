@@ -1,25 +1,26 @@
 import logo from './logo.svg';
 import './App.css';
+import Adverts from './components/adverts';
+import Profile from './components/profileview';
+import FeedPost from './components/feedpost';
+import Navigation from './components/navigation';
+import ChatBar from './components/chatbar';
+import CompanyPage from './components/companypages';
+// components
+// function that returns ui ( html element and css )
 
+// App
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <section>
+      <Navigation />
+      <Profile />
+      <CompanyPage />
+      <ChatBar />
+      <FeedPost />
+      <Adverts /> 
+    </section>
+  )
 }
 
 export default App;
