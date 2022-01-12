@@ -1,0 +1,16 @@
+JSX
+===
+
+template for writing interfaces in react
+html 
+
+jsx in react ===> html that the browser understands
+babeljs
+
+1) keywords in html and js may be conflicting
+2) the js will need to interact with the html, {}
+
+
+Component
+=========
+2013 ( classical , functional)
