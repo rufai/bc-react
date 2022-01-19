@@ -6,6 +6,7 @@ import FeedPost from './components/feedpost';
 import Navigation from './components/navigation';
 import ChatBar from './components/chatbar';
 import CompanyPage from './components/companypages';
+import BookCounter from './components/BookCounter';
 // components
 // function that returns ui ( html element and css )
 
@@ -13,15 +14,8 @@ import CompanyPage from './components/companypages';
 function App() {
   return (
     <section>
-      <Navigation />
-      <Profile name="Shiree White"/>
-      <Profile name="Rachel"/>
-      <Profile name="Lake"/>
-      <Profile name="White"/>
-      <Profile name="Bucknor"/>
-      <Profile name="Saphra"/>
-      <Profile name="Kara"/>
-      <Profile />
+      <BookCounter />
+      <Navigation />  
       <CompanyPage />
       <ChatBar />
       <FeedPost />

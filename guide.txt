@@ -14,3 +14,38 @@ babeljs
 Component
 =========
 2013 ( classical , functional)
+
+Data we can find in Component
+============================
+Props 
+    * read-only, you can not change it , you should not change it
+    * values of props are coming from external components
+    * props are created outside of the Component
+    * to change the value of props you must convert it to state 
+    * the value of props can move between components
+    * if you want data between 2 components, you must use Props
+State
+    * read-write, you can change it, you should change it
+    * the state is created inside the Component
+    * only state is changeable
+    * the value of a state can not go out of a components
+    * once the value of a state changes, the DOM will render ( reload )
+
+ How To Interact With State in classical Component
+================================================
+1) get the data
+2) change ( set ) the data
+3) to set the value of a state in classical components, you must use setState
+4) the setState will take an object 
+5)
+
+How To Interact With Sta] in functional Component ( Hooks )
+=======================================================
+
+useState is function.
+useState will return an array. 
+This array has 2 items inside it.
+    - the first item is state itself
+    - the second item is the function that we can use to change the state
+firstName should the initial value of Donna
+setFirstName()
